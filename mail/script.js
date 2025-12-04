@@ -18,6 +18,7 @@ for(i = 0; i < lista.length ; i++){
         break;
            }
 }
+// controllo il boolean
 
 if(controllo === true){
     console.log("Sei un invitato! ");
