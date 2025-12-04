@@ -4,5 +4,24 @@
 // stampo il messaggio
 
 const lista = ["davide00@gmail.com", "rick@libero.it", "ester@hotmail.it", "fabio@yahoo.com"];
-
+console.log(lista)
 let email = prompt("Inserisci la tua e-mail ");
+console.log(" La tua e-mail è: ", email);
+let controllo = false ;
+
+//controllo e-mail
+
+for(i = 0; i < lista.length ; i++){
+    if(email === lista[i]){
+
+        controllo=true;
+        break;
+           }
+}
+
+if(controllo === true){
+    console.log("Sei un invitato! ");
+
+}else {
+    console.log("Non sei un invitato!");
+}
